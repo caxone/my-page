@@ -1,4 +1,3 @@
-import {StaticImageData} from "next/legacy/image";
 import {FC, SVGProps} from 'react';
 
 import {IconProps} from '../components/Icon/Icon';
@@ -61,17 +60,6 @@ export interface TimelineItem {
   location: string;
   title: string;
   content?: JSX.Element;
-}
-
-export interface TestimonialSection {
-  imageSrc?: string | StaticImageData;
-  testimonials: Testimonial[];
-}
-
-export interface Testimonial {
-  image?: string;
-  name: string;
-  text: string;
 }
 
 export interface Social {
