@@ -14,7 +14,7 @@ const Page: NextPage<HomepageMeta> = memo(({children, title, description}) => {
         <title>{title}</title>
         <meta content={description} name="description" />
 
-        <link href={`https://reactresume.com${pathname}`} key="canonical" rel="canonical" />
+        <link href={`https://caxone.github.io/my-page${pathname}`} key="canonical" rel="canonical" />
 
       </Head>
       {children}
