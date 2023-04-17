@@ -59,14 +59,14 @@ import {
         </p>
       </>
     ),
-    actions: [
-      {
-        href: '/assets/resume.pdf',
-        text: 'Resume',
-        primary: true,
-        Icon: DownloadIcon,
-      },
-    ],
+    // actions: [
+    //   {
+    //     href: '/assets/resume.pdf',
+    //     text: 'Resume',
+    //     primary: true,
+    //     Icon: DownloadIcon,
+    //   },
+    // ],
   };
   
 
@@ -157,6 +157,56 @@ import {
         <p>
           Leading an Omni Channel team, 
           building a React Native App, also evolving a web app built with Node and React.
+        </p>
+      ),
+    },
+    {
+      date: 'May 2019 - November 2021',
+      location: 'Mazzatech',
+      title: 'Software Engineer',
+      content: (
+        <p>
+          I worked on an e-wallet application, integrating with BaaS platforms.
+        </p>
+      ),
+    },
+    {
+      date: 'May 2018 - January 2019',
+      location: 'Conta Azul',
+      title: 'Frontend Software Engineer',
+      content: (
+        <p>
+          Activities: Developing Platform Accounting Module;
+        </p>
+      ),
+    },
+    {
+      date: 'December 2017 - May 2018',
+      location: 'Wabbi Software S.A.',
+      title: 'Frontend Software Engineer',
+      content: (
+        <p>
+          Activities: Developing interfaces of accounting software
+        </p>
+      ),
+    },
+    {
+      date: 'July 2015 - December 2017',
+      location: 'ConferenciaCorp',
+      title: 'Full-stack Developer',
+      content: (
+        <p>
+          Activities: Developing interfaces of accounting software
+        </p>
+      ),
+    },
+    {
+      date: 'May 2013 - May 2015',
+      location: 'Cidade de São Paulo City Hall',
+      title: 'Software Engineer',
+      content: (
+        <p>
+          I started working as a developer maintaining the CMS that powered the entire São Paulo City Hall website.       
         </p>
       ),
     },

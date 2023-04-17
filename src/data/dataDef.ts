@@ -13,7 +13,7 @@ export interface Hero {
   imageSrc: any;
   name: string;
   description: JSX.Element;
-  actions: HeroActionItem[];
+  actions?: HeroActionItem[];
 }
 
 interface HeroActionItem {
