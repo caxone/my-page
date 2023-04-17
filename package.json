@@ -1,6 +1,7 @@
 {
   "name": "my-page",
   "version": "0.1.0",
+  "homepage": "my-page/",
   "private": true,
   "scripts": {
     "dev": "next dev",
