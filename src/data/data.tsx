@@ -20,7 +20,6 @@ import {
     HomepageMeta,
     SkillGroup,
     Social,
-    TestimonialSection,
     TimelineItem,
   } from './dataDef';
   
