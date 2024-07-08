@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 import {FC, memo} from 'react';
 
 export interface IconProps extends React.HTMLAttributes<SVGSVGElement> {

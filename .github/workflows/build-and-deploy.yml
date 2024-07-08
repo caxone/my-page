@@ -21,6 +21,11 @@ jobs:
           node-version: 16
           cache: npm
 
+
+      - name: Lint
+        run: |
+          npm run lint
+
       - name: Build
         run: |
           npm ci
